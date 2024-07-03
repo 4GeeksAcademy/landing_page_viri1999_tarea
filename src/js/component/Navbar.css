@@ -1,8 +1,23 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
-#Navbar{
+
+.navbar {
     background-color: dimgray;
+
 }
 
-body{
-    background-color: aqua;
+.boton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#container-fluid {
+    align-content: center;
+    background-color: dimgray;
+    
+    
 }
