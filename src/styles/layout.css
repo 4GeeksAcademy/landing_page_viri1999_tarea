@@ -1,0 +1,25 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.container {
+    background-color: gainsboro;
+    font-size: 3rem;
+    text-align: left;
+    height: 15vh;
+    /* Altura del contenedor al 100% de la vista */
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.parrafoA {
+    font-size: 1rem;
+    background-color: gainsboro;
+    text-align: left;
+
+}
+
+.btn-btn-primary {
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 16px;
+}

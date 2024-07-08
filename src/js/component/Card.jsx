@@ -6,7 +6,6 @@ const Card = () => {
         width: '18rem'
     };
     return (
-        
         <div className="col-12 col-md">
             <div className="card" style={cardStyle}>
                 <img src="..." className="card-img-top" alt="..."></img>

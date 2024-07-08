@@ -1,24 +1,15 @@
-//import react into the bundle
+// Importa React y métodos necesarios
 import React from "react";
-import {createRoot} from "react-dom/client";
+import { createRoot } from "react-dom/client";
+
+// Importa tus componentes y estilos
 import Layout from "./component/Layout.jsx";
-import "../styles/index.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
-//render your react application
+import Jumbotron from "./component/Jumbotron.jsx";  // Importa Jumbotron solo una vez
+import "../styles/index.css";  // Asegúrate de que tus estilos globales estén incluidos aquí
+import "bootstrap/dist/css/bootstrap.min.css";  // Importa estilos de Bootstrap
+import "bootstrap";  // Importa JavaScript de Bootstrap si es necesario
 
-createRoot(document.querySelector("#app")).render(<Layout/>)
+// Renderiza tu aplicación React
+createRoot(document.querySelector("#app")).render(<Layout />);
 
-
-
-
-
-
-
-
-
-// include your styles into the webpack bundle
-//import "../styles/index.css";
-
-//import your own components
-//import Home from "./component/home.jsx";
+// También puedes importar y usar otros componentes aquí según sea necesario
