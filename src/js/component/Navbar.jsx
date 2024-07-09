@@ -1,10 +1,8 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../styles/navbar.css';
 
 export const Navbar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar navbar.dark bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">Start Bootstrap</a>
                 <ul className="nav justify-content-end">
@@ -21,7 +19,7 @@ export const Navbar = () => {
                         <a className="nav-link disabled" aria-disabled="true">Contact</a>
                     </li>
                 </ul>
-                <button className="boton">Click me</button>  {/* Asegúrate de que esta clase 'boton' se define en navbar.css */}
+                <button className="btn btn succes">Call to action!</button>  {/* Asegúrate de que esta clase 'boton' se define en navbar.css */}
             </div>
         </div>
     )

@@ -1,23 +1,24 @@
 import React from "react";
 import { Navbar } from "./Navbar";
-import '../../styles/layout.css';
 import Card from "./Card";
 import Jumbotron from "./Jumbotron";
+import Footer from "./Footer";
 
 function Layout() {
     return (
-        <div>
+        <>
             <Navbar />
-            <div>
-                <Jumbotron />
+            <Jumbotron />
+            <div className="container">
+                <div className="row">
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Footer/>
+                </div>
             </div>
-            <div className="row">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-            </div>
-        </div>
+        </>
     )
 }
 
